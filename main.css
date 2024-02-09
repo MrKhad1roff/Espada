@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: auto;
+    background: rgb(2, 217, 255);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 100px;
+}
+.text{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.button{
+    color: white;
+    border: 1px solid rgb(208, 255, 0);
+    background: rgb(12, 218, 5);
+    padding: 15px 20px ;
+    border-radius: 100px;
+    text-align: center;
+}
+/* Decktop */
+
