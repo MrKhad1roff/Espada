@@ -26,6 +26,7 @@ li{
     text-transform: capitalize;
     letter-spacing: 3px;
     text-align: center;
+    font-style: italic;
 }
 .button{
     color: white;
