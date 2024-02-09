@@ -15,12 +15,8 @@ li{
     padding: 0 15px;
     margin: auto;
     background: rgb(2, 217, 255);
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    row-gap: 100px;
+
+
 }
 .text{
     color: white;
@@ -38,6 +34,22 @@ li{
     padding: 15px 20px ;
     border-radius: 100px;
     text-align: center;
+    transition: .5s;
 }
-/* Decktop */
+.button:hover{
+    color: white;
+    border: 1px solid rgb(208, 255, 0);
+    background: rgb(218, 12, 5);
+
+}
+.home{
+    padding-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 100px;
+    padding-bottom: 50px;
+}
+
 
