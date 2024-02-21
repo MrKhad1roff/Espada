@@ -271,3 +271,17 @@ body, html {
 	}
 }
 
+.soundbutton {
+	position: fixed;
+	bottom: 5vh;
+	right: 5vw;
+	cursor: pointer;
+	width: 24px;
+	transition: .25s ease;
+	width: 100px;
+	height: 100px;
+	z-index: 100;
+}
+.soundbutton.paused {
+	opacity: .25;
+}
